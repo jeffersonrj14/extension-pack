@@ -1,0 +1,61 @@
+{
+    "git.allowNoVerifyCommit": true,
+    "git.postCommitCommand": "push",
+    "git.confirmForcePush": false,
+    "git.confirmSync": false,
+    "vscode-pets.petSize": "large",
+    "remoteHub.commitDirectlyWarning": "off",
+    "vscode-pets.petColor": "purple",
+    "remoteHub.uncommittedChangesOnEntry": "none",
+    "[html]": {
+        "editor.defaultFormatter": "Wscats.eno"
+    },
+    "solidity.telemetry": false,
+    "workbench.colorTheme": "Night Owl Theme",
+    "workbench.iconTheme": "vscode-icons",
+    "git.enableSmartCommit": true,
+    "remote.SSH.defaultExtensions": [
+        "gitpod.gitpod-remote-ssh"
+    ],
+    "remote.SSH.remotePlatform": {
+        "badges-shields-yahqbwb4zwi.vss.gitpod.io": "linux"
+    },
+    "cSpell.userWords": [
+        "apikey"
+    ],
+    "terminal.integrated.env.windows": {},
+    "files.autoSave": "onFocusChange",
+    "rapidapi.terminalLink.enabled": false,
+    "files.associations": {
+        "*.astro": "astro",
+        "": "",
+        "*.css": "css"
+    },
+    "[astro]": {
+        
+    },
+    "console-ninja.featureSet": "Community",
+    "git.openRepositoryInParentFolders": "never",
+    "vsicons.dontShowNewVersionMessage": true,
+    "git.defaultBranchName": "master",
+
+      "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "[postcss]": {
+        "editor.defaultFormatter": "stylelint.vscode-stylelint"
+      },
+      "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "workbench.settings.applyToAllProfiles": [
+        "git.defaultBranchName"
+      ]
+    
+}
