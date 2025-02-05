@@ -1,61 +1,86 @@
 {
-    "git.allowNoVerifyCommit": true,
-    "git.postCommitCommand": "push",
-    "git.confirmForcePush": false,
-    "git.confirmSync": false,
-    "vscode-pets.petSize": "large",
-    "remoteHub.commitDirectlyWarning": "off",
-    "vscode-pets.petColor": "purple",
-    "remoteHub.uncommittedChangesOnEntry": "none",
-    "[html]": {
-        "editor.defaultFormatter": "Wscats.eno"
-    },
-    "solidity.telemetry": false,
-    "workbench.colorTheme": "Night Owl Theme",
-    "workbench.iconTheme": "vscode-icons",
-    "git.enableSmartCommit": true,
-    "remote.SSH.defaultExtensions": [
-        "gitpod.gitpod-remote-ssh"
-    ],
-    "remote.SSH.remotePlatform": {
-        "badges-shields-yahqbwb4zwi.vss.gitpod.io": "linux"
-    },
-    "cSpell.userWords": [
-        "apikey"
-    ],
-    "terminal.integrated.env.windows": {},
-    "files.autoSave": "onFocusChange",
-    "rapidapi.terminalLink.enabled": false,
-    "files.associations": {
-        "*.astro": "astro",
-        "": "",
-        "*.css": "css"
-    },
-    "[astro]": {
-        
-    },
-    "console-ninja.featureSet": "Community",
-    "git.openRepositoryInParentFolders": "never",
-    "vsicons.dontShowNewVersionMessage": true,
-    "git.defaultBranchName": "master",
+  "terminal.integrated.shellArgs.windows": [
+      "-NoExit",
+      "chcp 65001"
+  ],
+  "git.allowNoVerifyCommit": true,
+  "git.postCommitCommand": "push",
+  "git.confirmForcePush": false,
+  "git.confirmSync": false,
+  "vscode-pets.petSize": "large",
+  "remoteHub.commitDirectlyWarning": "off",
+  "vscode-pets.petColor": "purple",
+  "remoteHub.uncommittedChangesOnEntry": "none",
+  "[html]": {
+      "editor.defaultFormatter": "Wscats.eno"
+  },
+  "workbench.colorTheme": "Night Owl Theme",
+  "workbench.iconTheme": "vscode-icons",
+  "git.enableSmartCommit": true,
+  "remote.SSH.defaultExtensions": [
+      "gitpod.gitpod-remote-ssh"
+  ],
+  "remote.SSH.remotePlatform": {
+      "badges-shields-yahqbwb4zwi.vss.gitpod.io": "linux"
+  },
+  "cSpell.userWords": [
+      "apikey"
+  ],
+  "terminal.integrated.env.windows": {},
+  "files.autoSave": "onFocusChange",
+  "files.associations": {
+      "*.astro": "astro",
+      "": "",
+      "*.css": "css"
+  },
+  "[astro]": {
+      
+  },
+  "git.openRepositoryInParentFolders": "never",
+  "vsicons.dontShowNewVersionMessage": true,
+  "git.defaultBranchName": "master",
 
-      "[typescriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-      },
-      "[postcss]": {
-        "editor.defaultFormatter": "stylelint.vscode-stylelint"
-      },
-      "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-      },
-      "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-      },
-      "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-      },
-      "workbench.settings.applyToAllProfiles": [
-        "git.defaultBranchName"
-      ]
-    
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[postcss]": {
+      "editor.defaultFormatter": "stylelint.vscode-stylelint"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.settings.applyToAllProfiles": [
+      "git.defaultBranchName"
+    ],
+    "cmake.configureOnOpen": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "cmake.showOptionsMovedNotification": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "livePreview.hostIP": "localhost",
+    "vscord.app.privacyMode.enable": true,
+    "vscord.status.idle.check": false,
+    "vscord.status.idle.enabled": false,
+    "vscord.status.details.text.notInFile": "",
+    "vscord.status.state.text.notInFile": "Taking a break or nap ?!?!?!",
+    "vscord.status.details.idle.enabled": false,
+    "vscord.status.state.idle.enabled": false,
+    "vscord.app.name": "Visual Studio Code",
+    "indentRainbow.colors": [
+
+      "rgba(255,255,64,0.3)",
+      "rgba(127,255,127,0.3)",
+      "rgba(255,127,255,0.3)",
+      "rgba(79,236,236,0.3)"
+    ],
+    "gradle.nestedProjects": false,
+    "java.import.gradle.enabled": true,
+    "java.import.gradle.jvmArguments": "-Xmx2G",
+    "java.configuration.updateBuildConfiguration": "automatic"
+  
 }
